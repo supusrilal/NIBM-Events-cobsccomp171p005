@@ -168,6 +168,9 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="DFb-Gl-0FU" kind="show" id="AfR-3X-e6g"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -201,6 +204,40 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="or3-2V-0Yl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="9005.7971014492759" y="-270.53571428571428"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0OF-Gi-0SY">
+            <objects>
+                <viewController id="DFb-Gl-0FU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yr5-lw-tgH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ruA-ZY-wVT">
+                                <rect key="frame" x="20" y="109" width="374" height="53"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="MKm-oG-UQt">
+                                <rect key="frame" x="0.0" y="170" width="414" height="692"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="MKm-oG-UQt" firstAttribute="leading" secondItem="10S-TO-FIs" secondAttribute="leading" id="d7a-BD-06w"/>
+                            <constraint firstItem="MKm-oG-UQt" firstAttribute="top" secondItem="ruA-ZY-wVT" secondAttribute="bottom" constant="8" symbolic="YES" id="ewz-RI-yP2"/>
+                            <constraint firstItem="10S-TO-FIs" firstAttribute="trailing" secondItem="MKm-oG-UQt" secondAttribute="trailing" id="fME-eW-gdV"/>
+                            <constraint firstItem="10S-TO-FIs" firstAttribute="bottom" secondItem="MKm-oG-UQt" secondAttribute="bottom" id="t4r-ib-OJE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="10S-TO-FIs"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="JYq-QS-GZT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dh5-6A-4zm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9913.04347826087" y="-796.20535714285711"/>
         </scene>
         <!--Event View Controller-->
         <scene sceneID="OeR-zJ-9XO">

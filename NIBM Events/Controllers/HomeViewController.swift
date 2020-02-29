@@ -70,6 +70,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         cell?.textLabel?.text = postData[indexPath.row]
         return cell!
     }
+    
         
     }
     
