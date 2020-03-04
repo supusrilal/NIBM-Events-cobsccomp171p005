@@ -11,13 +11,16 @@
 		5211C79B24062FE0002E4EC9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5211C79A24062FE0002E4EC9 /* GoogleService-Info.plist */; };
 		5211C79D24063F0C002E4EC9 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5211C79C24063F0C002E4EC9 /* RegisterViewController.swift */; };
 		521EF41F24069C5C00EC4495 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521EF41E24069C5C00EC4495 /* HomeViewController.swift */; };
-		5222D8F5240AC70A0005F965 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5222D8F4240AC70A0005F965 /* CommentViewController.swift */; };
 		52394EBD2405108C00595383 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52394EBC2405108C00595383 /* AppDelegate.swift */; };
 		52394EBF2405108C00595383 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52394EBE2405108C00595383 /* SceneDelegate.swift */; };
 		52394EC12405108C00595383 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52394EC02405108C00595383 /* LoginViewController.swift */; };
 		52394EC42405108C00595383 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52394EC22405108C00595383 /* Main.storyboard */; };
 		52394EC62405108E00595383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52394EC52405108E00595383 /* Assets.xcassets */; };
 		52394EC92405108E00595383 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52394EC72405108E00595383 /* LaunchScreen.storyboard */; };
+		523D818F240CA420004DD44D /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523D818E240CA420004DD44D /* Message.swift */; };
+		523D8192240CE887004DD44D /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523D8190240CE887004DD44D /* MessageCell.swift */; };
+		523D8193240CE887004DD44D /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 523D8191240CE887004DD44D /* MessageCell.xib */; };
+		5273C7BB240B699300EB5AC7 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5273C7BA240B699300EB5AC7 /* CommentViewController.swift */; };
 		52EE46CC2409873F00E3F5D7 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EE46CB2409873F00E3F5D7 /* Constant.swift */; };
 		52EE46D2240A04D200E3F5D7 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EE46D1240A04D200E3F5D7 /* EventViewController.swift */; };
 		52EE46E0240A542000E3F5D7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EE46DF240A542000E3F5D7 /* ProfileViewController.swift */; };
@@ -30,7 +33,6 @@
 		5211C79A24062FE0002E4EC9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5211C79C24063F0C002E4EC9 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		521EF41E24069C5C00EC4495 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		5222D8F4240AC70A0005F965 /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
 		52394EB92405108C00595383 /* NIBM Events.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NIBM Events.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52394EBC2405108C00595383 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52394EBE2405108C00595383 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,10 @@
 		52394EC52405108E00595383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52394EC82405108E00595383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52394ECA2405108E00595383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		523D818E240CA420004DD44D /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		523D8190240CE887004DD44D /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		523D8191240CE887004DD44D /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		5273C7BA240B699300EB5AC7 /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
 		52EE46CB2409873F00E3F5D7 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		52EE46D1240A04D200E3F5D7 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
 		52EE46DF240A542000E3F5D7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -111,7 +117,7 @@
 				521EF41E24069C5C00EC4495 /* HomeViewController.swift */,
 				52EE46D1240A04D200E3F5D7 /* EventViewController.swift */,
 				52EE46DF240A542000E3F5D7 /* ProfileViewController.swift */,
-				5222D8F4240AC70A0005F965 /* CommentViewController.swift */,
+				5273C7BA240B699300EB5AC7 /* CommentViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -120,6 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				52394EC22405108C00595383 /* Main.storyboard */,
+				523D8190240CE887004DD44D /* MessageCell.swift */,
+				523D8191240CE887004DD44D /* MessageCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -127,6 +135,7 @@
 		52394ED22405109C00595383 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				523D818E240CA420004DD44D /* Message.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -199,6 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				523D8193240CE887004DD44D /* MessageCell.xib in Resources */,
 				52394EC92405108E00595383 /* LaunchScreen.storyboard in Resources */,
 				5211C79B24062FE0002E4EC9 /* GoogleService-Info.plist in Resources */,
 				52394EC62405108E00595383 /* Assets.xcassets in Resources */,
@@ -255,16 +265,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5222D8F5240AC70A0005F965 /* CommentViewController.swift in Sources */,
 				52EE46CC2409873F00E3F5D7 /* Constant.swift in Sources */,
 				52394EC12405108C00595383 /* LoginViewController.swift in Sources */,
 				5211C79D24063F0C002E4EC9 /* RegisterViewController.swift in Sources */,
 				52394EBD2405108C00595383 /* AppDelegate.swift in Sources */,
 				52394EBF2405108C00595383 /* SceneDelegate.swift in Sources */,
+				523D8192240CE887004DD44D /* MessageCell.swift in Sources */,
 				52EE46D2240A04D200E3F5D7 /* EventViewController.swift in Sources */,
 				52EE46E0240A542000E3F5D7 /* ProfileViewController.swift in Sources */,
 				5211C79924061F43002E4EC9 /* ViewController.swift in Sources */,
+				523D818F240CA420004DD44D /* Message.swift in Sources */,
 				521EF41F24069C5C00EC4495 /* HomeViewController.swift in Sources */,
+				5273C7BB240B699300EB5AC7 /* CommentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

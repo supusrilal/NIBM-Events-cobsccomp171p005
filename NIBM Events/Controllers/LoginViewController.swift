@@ -31,9 +31,23 @@ class LoginViewController: UIViewController {
                          
                        if let e = error{
                            print(e.localizedDescription)
+                        let alert = UIAlertController(title: "Alert", message: "username or password have dought", preferredStyle: UIAlertController.Style.alert)
+
+                        // add an action (button)
+                        alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+
+                        // show the alert
+                        self.present(alert, animated: true, completion: nil)
                        }else{
                            
                         self.performSegue(withIdentifier: K.loginSegue, sender: self)
+                        let alert = UIAlertController(title: "Alert", message: "Login is Succesfully", preferredStyle: UIAlertController.Style.alert)
+
+                                           // add an action (button)
+                                           alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+
+                                           // show the alert
+                                           self.present(alert, animated: true, completion: nil)
                        }
                        
                           }

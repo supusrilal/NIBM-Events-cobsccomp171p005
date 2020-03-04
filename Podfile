@@ -6,7 +6,7 @@ target 'NIBM Events' do
 
   # Pods for NIBM Events
 
-pod 'Firebase/Auth'
+  pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
   pod 'Firebase/Database'
   

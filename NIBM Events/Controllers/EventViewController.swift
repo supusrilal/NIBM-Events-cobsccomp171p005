@@ -48,6 +48,10 @@ class EventViewController: UIViewController {
         // show the alert
         self.present(alert, animated: true, completion: nil)
         
+        eventText1.text = ""
+        eventText2.text = ""
+        
+        
     }
     
 }
